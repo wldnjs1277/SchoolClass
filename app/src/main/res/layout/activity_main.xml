@@ -8,16 +8,53 @@
     tools:context=".MainActivity"
     android:orientation="vertical" >
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="true">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textColor="#ee04f6"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Button" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textColor="#ee04f6"
+            android:gravity="center"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textColor="#ee04f6"
+            android:gravity="center"
+            android:text="TextView" />
+    </LinearLayout>
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:maxHeight="100dp"
-        android:maxWidth="150dp"
         android:adjustViewBounds="false"
-        android:scaleType="fitCenter"
         android:cropToPadding="true"
+        android:maxWidth="150dp"
+        android:maxHeight="100dp"
         android:padding="10dp"
+        android:scaleType="fitCenter"
         android:src="@drawable/image1" />
 
     <TextView
