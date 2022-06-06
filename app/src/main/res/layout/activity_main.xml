@@ -60,7 +60,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mobile App Programming"
+        android:text="@string/app_prgram"
         android:textStyle="bold"
         android:layout_gravity="center"
         android:textSize="30sp" />
