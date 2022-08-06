@@ -1,75 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:background="@color/white">
 
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:baselineAligned="true">
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:padding="10dp"
-            android:textColor="#ee04f6"
-            android:textSize="20sp"
-            android:gravity="center"
-            android:text="Button" />
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:textSize="20sp"
-            android:padding="10dp"
-            android:textColor="#ee04f6"
-            android:gravity="center"
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:textSize="20sp"
-            android:padding="10dp"
-            android:textColor="#ee04f6"
-            android:gravity="center"
-            android:text="TextView" />
-    </LinearLayout>
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:adjustViewBounds="false"
-        android:cropToPadding="true"
-        android:maxWidth="150dp"
-        android:maxHeight="100dp"
-        android:padding="10dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/image1" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/app_program"
-        android:textStyle="bold"
-        android:layout_gravity="center"
-        android:textSize="30sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Android Studio"
-        android:textStyle="italic"
-        android:layout_gravity="center"
-        android:textSize="20sp" />
-</LinearLayout>
+        tools:srcCompat="@drawable/pawprint"
+        tools:ignore="ContentDescription" />
+</RelativeLayout>
