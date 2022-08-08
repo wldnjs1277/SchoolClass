@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Schoolclass</string>
     <string name="app_program">app programing</string>
+    <string name="text_view_text">lifecycle</string>
 </resources>
