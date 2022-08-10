@@ -2,4 +2,7 @@
     <string name="app_name">Schoolclass</string>
     <string name="app_program">app programing</string>
     <string name="text_view_text">lifecycle</string>
+    <string name="textview1">Main\nText</string>
+    <string name="button1">Button 1</string>
+    <string name="button2">Button 2</string>
 </resources>

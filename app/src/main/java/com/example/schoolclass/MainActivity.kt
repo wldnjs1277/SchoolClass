@@ -13,11 +13,11 @@ private const val TAG = "MainActivity"
 private lateinit var binding:ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-    //액티비티가 생성되었을때
+    //뷰가 생성되었을때
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding=ActivityMainBinding.inflate(layoutInflater)
-        //레이아웃을 설정
+        //뷰 파일을 연결시킴
         setContentView(binding.root)
         Log.d(TAG, "onCreate: ")
     }
