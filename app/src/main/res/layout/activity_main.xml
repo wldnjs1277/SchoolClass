@@ -37,7 +37,6 @@
         android:textAllCaps="false"/>
         <!--textAllCaps를 true로 하면 text가 대문자 -->
 
-
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
