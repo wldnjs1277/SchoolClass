@@ -47,4 +47,5 @@
         android:textStyle="italic"
         android:textAllCaps="false"
         />
+
 </androidx.appcompat.widget.LinearLayoutCompat>
