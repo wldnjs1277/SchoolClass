@@ -7,10 +7,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="@drawable/splash_bg_gradient"
+   android:background="@color/background1"
     android:weightSum="1"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-
 
     <TextView
         android:id="@+id/textView"
