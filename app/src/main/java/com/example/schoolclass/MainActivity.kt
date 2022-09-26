@@ -36,7 +36,6 @@ class MainActivity : AppCompatActivity() {
         super.onPause()
         Log.d(TAG, "onPause: ")
         binding.textView.visibility =View.VISIBLE
-        binding.textView.text="ON PAUSE()"
     }
 
     override fun onStop() {
