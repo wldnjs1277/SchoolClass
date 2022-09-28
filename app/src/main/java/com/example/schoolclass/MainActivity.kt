@@ -9,7 +9,6 @@ import com.example.schoolclass.databinding.ActivityMainBinding
 
 
 private const val TAG = "MainActivity"
-
 private lateinit var binding:ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
