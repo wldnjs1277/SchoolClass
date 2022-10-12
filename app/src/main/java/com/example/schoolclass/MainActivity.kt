@@ -3,16 +3,15 @@ package com.example.schoolclass
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.View
 import com.example.schoolclass.databinding.ActivityMainBinding
 
 private const val TAG = "MainActivity"
-private lateinit var binding:ActivityMainBinding
+
 class MainActivity : AppCompatActivity() {
     //뷰가 생성되었을때
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding=ActivityMainBinding.inflate(layoutInflater)
+        val binding=ActivityMainBinding.inflate(layoutInflater)
         //뷰 파일을 연결시킴
         setContentView(binding.root)
         Log.d(TAG, "onCreate: ")
@@ -31,7 +30,6 @@ class MainActivity : AppCompatActivity() {
     override fun onPause() {
         super.onPause()
         Log.d(TAG, "onPause: ")
-        binding.textView.visibility =View.VISIBLE
     }
 
     override fun onStop() {
