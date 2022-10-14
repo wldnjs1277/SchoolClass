@@ -7,7 +7,6 @@ import com.example.schoolclass.databinding.ActivityMainBinding
 
 private const val TAG = "MainActivity"
 
-
 class MainActivity : AppCompatActivity() {
     //뷰가 생성되었을때
     override fun onCreate(savedInstanceState: Bundle?) {
