@@ -1,5 +1,6 @@
 package com.example.schoolclass
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -15,6 +16,16 @@ class MainActivity : AppCompatActivity() {
         //뷰 파일을 연결시킴
         setContentView(binding.root)
         Log.d(TAG, "onCreate: ")
+
+        //액티비티전환하기
+        binding.button.setOnClickListener{
+            val intent = Intent(this,MainActivity2::class.java)
+            startActivity(intent)
+        }
+        binding.button2.setOnClickListener {
+            val intent = Intent(this,MainActivity2::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onStart() {
