@@ -1,12 +1,17 @@
 package com.example.schoolclass
 
 fun main(){
-
+println(solution(3))
 }
-fun solution(num_list: IntArray): IntArray {
-    var answer: IntArray = intArrayOf()
-    answer=num_list.reversedArray()
-    return answer
+    fun solution(num: Int): String {
+        var answer = ""
+        if(num%2==0){
+            answer="Even"
+        }else{
+            answer="Odd"
+        }
+        return answer
+
 }
 
 
