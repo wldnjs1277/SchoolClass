@@ -1,8 +1,11 @@
 package com.example.schoolclass
 
 fun main(){
-println(solution(12))
+println())
 }
+
+                   //나머지가 1이 되는 수 찾기
+/*
     fun solution(n: Int): Int {
         var answer: Int = 0
         for(x in 1..n) {
@@ -13,6 +16,7 @@ println(solution(12))
         }
         return answer
     }
+*/
 
 
 
